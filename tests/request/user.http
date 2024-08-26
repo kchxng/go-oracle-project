@@ -1,0 +1,6 @@
+@URL=http://localhost:8080
+@accessToken=adsdasd
+
+###
+GET {{URL}}/user?page=1&limit=20
+Authorization: Bearer {{accessToken}}

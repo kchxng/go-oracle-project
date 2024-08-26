@@ -1,0 +1,6 @@
+.env
+*.yml
+*.properties
+DS_Store
+*.sum
+bin

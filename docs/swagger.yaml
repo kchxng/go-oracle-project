@@ -1,0 +1,17 @@
+basePath: /
+host: localhost:4000
+info:
+  contact:
+    email: fiber@swagger.io
+    name: API Support
+  description: DDSP API - core
+  title: DDSP core API
+  version: "1.0"
+paths: {}
+securityDefinitions:
+  bearerAuth:
+    description: 'Enter token with `Bearer: ` prefix, e.g. "Bearer abcde1234".'
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

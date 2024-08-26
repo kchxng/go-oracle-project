@@ -1,0 +1,23 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "DDSP API - core",
+        "title": "DDSP core API",
+        "contact": {
+            "name": "API Support",
+            "email": "fiber@swagger.io"
+        },
+        "version": "1.0"
+    },
+    "host": "localhost:4000",
+    "basePath": "/",
+    "paths": {},
+    "securityDefinitions": {
+        "bearerAuth": {
+            "description": "Enter token with `Bearer: ` prefix, e.g. \"Bearer abcde1234\".",
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        }
+    }
+}
